@@ -1,12 +1,20 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Terraria.ModLoader;
 
 namespace TheMusicalMod.Projectiles
 {
-    class MusicalSound
+    public class MusicalSound : ModProjectile
     {
+        public override void SetDefaults()
+        {
+            projectile.name = "Musical Sound";
+            projectile.width = 30;
+            projectile.height = 30;
+            projectile.alpha = 255;
+            projectile.timeLeft = 600;
+            projectile.penetrate = -1;
+            projectile.tileCollide = false;
+            projectile.ignoreWater = true;
+        }
     }
 }
