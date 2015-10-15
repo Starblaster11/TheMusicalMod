@@ -83,11 +83,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ChatHandler.cs" />
+    <Compile Include="Items\SuperSoundSword.cs" />
     <Compile Include="Projectiles\MusicalSound.cs" />
     <Compile Include="TheMusicalMod.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Items\" />
     <Folder Include="NPCs\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
