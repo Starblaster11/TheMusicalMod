@@ -82,12 +82,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Projectiles\MusicalSound.cs" />
     <Compile Include="TheMusicalMod.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Items\" />
     <Folder Include="NPCs\" />
-    <Folder Include="Projectiles\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
