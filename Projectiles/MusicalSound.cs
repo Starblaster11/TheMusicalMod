@@ -1,4 +1,4 @@
-﻿using Terraria;
+using Terraria;
 using Terraria.ModLoader;
 
 namespace TheMusicalMod.Projectiles
@@ -30,6 +30,12 @@ namespace TheMusicalMod.Projectiles
 
         public override void OnHitPlayer(Player target, int damage, bool crit)
         {
+            target.Hurt(5, projectile.direction);
+        }
+
+        public virtual void PlaySound()
+        {
+            Main.PlaySound(2, (int)projectile.position.X, (int)projectile.position.Y, 20);
         }
     }
 }
