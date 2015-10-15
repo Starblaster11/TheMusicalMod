@@ -85,10 +85,16 @@
     <Compile Include="ChatHandler.cs" />
     <Compile Include="Items\SuperSoundSword.cs" />
     <Compile Include="Projectiles\MusicalSound.cs" />
+    <Compile Include="Projectiles\MusicalSoundEnemy.cs" />
     <Compile Include="TheMusicalMod.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="NPCs\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Items\SuperSoundSword.png" />
+    <Content Include="Projectiles\MusicalSound.png" />
+    <Content Include="Projectiles\MusicalSoundEnemy.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

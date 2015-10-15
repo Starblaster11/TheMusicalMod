@@ -14,7 +14,6 @@ namespace TheMusicalMod.Projectiles
             projectile.timeLeft = 600;
             projectile.penetrate = -1;
             projectile.hostile = true;
-            projectile.magic = true;
             projectile.tileCollide = false;
             projectile.ignoreWater = true;
         }
