@@ -27,6 +27,7 @@ namespace TheMusicalMod
             }
 
             Main.time = time;
+            Main.NewText("Set time to " + time);
         }
     }
 }
