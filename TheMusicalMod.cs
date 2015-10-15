@@ -3,7 +3,7 @@ using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
-//using TheMusicalMod.Items; These will come in once we figure out what we will put in these folders.
+using TheMusicalMod.Items;
 //using TheMusicalMod.NPCs;  These will come in once we figure out what we will put in these folders.
 
 namespace TheMusicalMod
