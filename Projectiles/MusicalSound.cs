@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TheMusicalMod.Projectiles
 {
-    class MusicalProjectile
+    class MusicalSound
     {
     }
 }
