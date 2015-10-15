@@ -82,6 +82,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChatHandler.cs" />
     <Compile Include="Projectiles\MusicalSound.cs" />
     <Compile Include="TheMusicalMod.cs" />
   </ItemGroup>

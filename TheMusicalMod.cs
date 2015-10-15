@@ -17,5 +17,30 @@ namespace TheMusicalMod
             properties.AutoloadGores = true;
             properties.AutoloadSounds = true;
         }
+
+        public override void ChatInput(string text)
+        {
+            if (text[0] != '/')
+                return;
+
+            string command;
+            string[] args;
+
+            text = text.Substring(1);
+            var index = text.IndexOf(' ');
+
+            if (index < 0)
+            {
+                command = text;
+                args = new string[0];
+            }
+            else
+            {
+                command = text.Substring(0, index);
+                args = text.Substring(index + 1).Split(new [] {' '}, StringSplitOptions.RemoveEmptyEntries);
+            }
+
+            ChatHandler.ProcessCommand(command, args);
+        }
     }
 }

@@ -21,13 +21,14 @@ namespace TheMusicalMod.Projectiles
 
         public override void AI()
         {
+            PlaySound();
         }
 
         public override bool CanHitPlayer(Player target, ref int cooldownSlot)
         {
             return true;
         }
-
+        
         public override void OnHitPlayer(Player target, int damage, bool crit)
         {
             target.Hurt(5, projectile.direction);
