@@ -13,10 +13,10 @@ namespace TheMusicalMod.Projectiles
             projectile.alpha = 255;
             projectile.timeLeft = 600;
             projectile.penetrate = -1;
+            projectile.friendly = true;
             projectile.melee = true;
             projectile.tileCollide = false;
             projectile.ignoreWater = true;
-            projectile.aiStyle = 1;
         }
     }
 }
