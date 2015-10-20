@@ -23,7 +23,7 @@ namespace TheMusicalMod.Items
             item.rare = 5;
             item.useSound = 1;
             item.autoReuse = true;
-            item.shoot = mod.ProjectileType("MusicalSound");
+            item.shoot = mod.ProjectileType("FriendlyProjectileMelee");
             item.shootSpeed = 15f;
         }
 
