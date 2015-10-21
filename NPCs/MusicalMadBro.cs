@@ -15,11 +15,17 @@ namespace TheMusicalMod.NPCs
 			npc.lifeMax = 150;
 			npc.damage = 20;
 			npc.defense = 5;
-			npc.width = 25;
-			npc.height = 50;
+			npc.width = 50;
+			npc.height = 25;
 			npc.aiStyle = 3;
 			npc.soundKilled = 1;
 			npc.value = Item.buyPrice(999, 99, 99, 99);
 		}
-	}
+
+        public override bool CanHitPlayer(Player target, ref int cooldownSlot)
+        {
+            return true;
+        }
+        //Here I'm trying to make the enemy shoot the HostileProjectile. Failing terribly plz help.
+    }
 }
