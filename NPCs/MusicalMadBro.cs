@@ -26,6 +26,11 @@ namespace TheMusicalMod.NPCs
         {
             return true;
         }
+
+        public override float CanSpawn(NPCSpawnInfo spawnInfo)
+        {
+            return 100f;
+        }
         //Here I'm trying to make the enemy shoot the HostileProjectile. Failing terribly plz help.
     }
 }

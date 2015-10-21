@@ -10,7 +10,6 @@ namespace TheMusicalMod.Projectiles
             projectile.name = "Hostile Projectile";
             projectile.width = 30;
             projectile.height = 30;
-            projectile.alpha = 255;
             projectile.timeLeft = 600;
             projectile.penetrate = -1;
             projectile.hostile = true;

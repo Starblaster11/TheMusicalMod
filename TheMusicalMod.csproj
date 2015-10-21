@@ -84,17 +84,23 @@
   <ItemGroup>
     <Compile Include="ChatHandler.cs" />
     <Compile Include="Items\SuperSoundSword.cs" />
-    <Compile Include="Projectiles\MusicalSound.cs" />
-    <Compile Include="Projectiles\MusicalSoundEnemy.cs" />
+    <Compile Include="NPCs\MusicalMadBro.cs" />
+    <Compile Include="Projectiles\FriendlyProjectileSummon.cs" />
+    <Compile Include="Projectiles\FriendlyProjectileRanged.cs" />
+    <Compile Include="Projectiles\FriendlyProjectileMagic.cs" />
+    <Compile Include="Projectiles\FriendlyProjectileMelee.cs" />
+    <Compile Include="Projectiles\HostileProjectile.cs" />
     <Compile Include="TheMusicalMod.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="NPCs\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="Items\SuperSoundSword.png" />
-    <Content Include="Projectiles\MusicalSound.png" />
-    <Content Include="Projectiles\MusicalSoundEnemy.png" />
+    <Content Include="NPCs\MusicalMadBro.png" />
+    <Content Include="Projectiles\FriendlyProjectileSummon.png" />
+    <Content Include="Projectiles\FriendlyProjectileRanged.png" />
+    <Content Include="Projectiles\FriendlyProjectileMagic.png" />
+    <Content Include="Projectiles\FriendlyProjectileMelee.png" />
+    <Content Include="Projectiles\HostileProjectile.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
