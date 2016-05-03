@@ -22,12 +22,14 @@ namespace TheMusicalMod
         {
             if (text[0] != '/')
                 return;
-
+            
+text =      text.Substring(1);
+            var index = text.IndexOf(' ');
+            
             string command;
             string[] args;
 
-            text = text.Substring(1);
-            var index = text.IndexOf(' ');
+            
 
             if (index < 0)
             {
@@ -37,7 +39,7 @@ namespace TheMusicalMod
             else
             {
                 command = text.Substring(0, index);
-                args = text.Substring(index + 1).Split(new [] {' '}, StringSplitOptions.RemoveEmptyEntries);
+                args = text.Substring(index + 1).Split(' ');
             }
 
             ChatHandler.ProcessCommand(command, args);
