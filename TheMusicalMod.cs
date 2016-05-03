@@ -10,12 +10,12 @@ namespace TheMusicalMod
 {
     public class TheMusicalMod : Mod
     {
-        public override void SetModInfo(out string name, ref ModProperties properties)
+        public TheMusicalMod()
         {
-            name = "TheMusicalMod";
-            properties.Autoload = true;
-            properties.AutoloadGores = true;
-            properties.AutoloadSounds = true;
+            Properties = new ModProperties()
+            {
+                Autoload = true;  
+            };
         }
 
         public override void ChatInput(string text)
