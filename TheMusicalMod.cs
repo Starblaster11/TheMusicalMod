@@ -4,7 +4,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 using TheMusicalMod.Items;
-//using TheMusicalMod.NPCs;
+using TheMusicalMod.NPCs;
 
 namespace TheMusicalMod
 {
