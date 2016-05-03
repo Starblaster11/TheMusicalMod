@@ -1,3 +1,4 @@
 author = napen123 & Starblaster11
 version = v0.1
 displayName = The Musical Mod
+buildIgnore = *.csproj, *.user, obj\*, bin\*, .vs\*
