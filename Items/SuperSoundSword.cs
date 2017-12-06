@@ -1,4 +1,3 @@
-﻿using System;
 using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.ID;
@@ -19,9 +18,9 @@ namespace TheMusicalMod.Items
             item.useAnimation = 15;
             item.useStyle = 1;
             item.knockBack = 5;
-            item.value = 10000;
+            item.value = Item.sellPrice(platinum: 30);
             item.rare = 5;
-            item.useSound = 1;
+            item.useSound = SoundID.Item1;
             item.autoReuse = true;
             item.shoot = mod.ProjectileType("FriendlyProjectileMelee");
             item.shootSpeed = 15f;
