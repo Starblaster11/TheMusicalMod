@@ -22,15 +22,15 @@ namespace TheMusicalMod.NPCs
 			npc.value = Item.buyPrice(999, 99, 99, 99);
 		}
 
-        public override bool CanHitPlayer(Player target, ref int cooldownSlot)
-        {
-            return true;
-        }
+		public override bool CanHitPlayer(Player target, ref int cooldownSlot)
+		{
+		    return true;
+		}
 
-        public override float CanSpawn(NPCSpawnInfo spawnInfo)
-        {
-            return 100f;
-        }
+		public override float CanSpawn(NPCSpawnInfo spawnInfo)
+		{
+		    return 100f;
+		}
         //Here I'm trying to make the enemy shoot the HostileProjectile. Failing terribly plz help.
     }
 }
